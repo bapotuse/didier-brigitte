@@ -1,26 +1,15 @@
 <template>
-    <nav>
-        <router-link to="/">Didier & Brigitte</router-link>
-        <div class="liens">
-            <router-link to="/click-and-collect">Click and Collect</router-link>
-            <router-link to="/contact">Contact</router-link>
+    <nav class="flex flex-col gap-4 p-4 text-2xl md:flex-row md:items-center md:justify-between md:text-3xl">
+        <router-link to="/" class="tracking-wide text-black no-underline">
+            Didier & Brigitte
+        </router-link>
+        <div class="flex flex-col gap-3 text-xl md:flex-row md:gap-8 md:text-2xl">
+            <router-link to="/click-and-collect" class="text-black no-underline transition-opacity hover:opacity-70">
+                Click and Collect
+            </router-link>
+            <router-link to="/contact" class="text-black no-underline transition-opacity hover:opacity-70">
+                Contact
+            </router-link>
         </div>
     </nav>
 </template>
-
-<style scoped>
-nav {
-    display: flex;
-    font-size: 30px;
-}
-
-.liens a{
-    margin-right:50px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin-right:50px;
-}
-</style>
