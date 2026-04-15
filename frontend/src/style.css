@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Manrope:wght@200..800&family=MonteCarlo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+.font-manrope {
+	font-family: "Manrope", sans-serif;
+}
+
+.font-noto-serif {
+	font-family: "Noto Serif", serif;
+}
+
+.font-charm {
+    font-family: "Charm", cursive;
+}
+
+.font-montecarlo {
+    font-family: "Montecarlo", cursive;
+}
