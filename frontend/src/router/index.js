@@ -1,4 +1,5 @@
 import Home from '@/Home.vue'
+import Contact from '@/Contact.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -7,6 +8,10 @@ const router = createRouter({
     {
       path: '/',
       component: Home
+    },
+    {
+      path: '/contact',
+      component: Contact
     }
   ],
 })
